@@ -292,6 +292,7 @@ img {
 .card-members {
   display: flex;
   justify-content: space-between;
+  background-color: var(--base-white-color);
 }
 
 .card-names {
@@ -359,7 +360,6 @@ img {
 /* portfolio - exapmles */
 
 .card-set {
-  padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -379,6 +379,10 @@ img {
 
 .item:nth-last-child(3n + 1) {
   margin-right: 0;
+}
+
+.item:nth-child(n + 7) {
+  margin-bottom: 0;
 }
 
 .card-heading {
